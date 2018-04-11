@@ -1,0 +1,321 @@
+*{
+	box-sizing: border-box;	
+}
+
+body{
+	margin: 0;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+}
+
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: auto;
+	text-align: center;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxx  NAV xxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+
+nav{
+	overflow: auto;
+	border: 1px solid #000000;
+	padding: 20px 20px;
+}
+
+nav li{
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+nav li:hover{
+	color:#4c819c;
+	cursor:pointer;
+}
+
+.navList{
+	display:inline-block;
+}
+
+.accountNav{
+	background-color: #a6a6a6;		
+	color: #595959;
+	padding: 30px 10px;
+}
+
+.accountNavSearch {
+	display: inline-block;
+	height: 25px;
+	color: #000000;
+	background-color: #a6a6a6;
+}
+
+.searchIcon {
+	color: #595959;
+}
+
+.searchIcon:hover {
+	cursor: pointer;
+}
+
+.settingsTab {
+	position: fixed;
+	left: 0px;
+	border-radius: 5%;
+	color: #595959;
+	height: 50px;
+	width: 50px;
+	z-index: 5;
+}
+
+.settingsTab:hover {
+	cursor: pointer;
+}
+
+.productNav{
+	background-color: #f2f2f2;		
+	color: #1a1a1a;
+	padding: 30px 10px;
+}
+
+.productList{
+	border: 3px solid #f2f2f2;
+	float: left;
+}
+
+.productList:hover{
+	border: 3px solid #000000;
+	color: #000000;
+}
+
+.productNavLogo{
+	float: left;
+}
+ 
+.productNavItems{
+	float: left;
+	display: inline-block;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxx HEADER xxxxxxxxxxxxxxxxxxxxxxxxxx  */
+
+header{
+	position: relative;
+}
+
+.headerImage{
+	position: relative;
+	background: url("SlidePilo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #ffffff;	
+	height: 700px;
+}
+
+.overlayTitle{
+	margin: 0 auto;
+	clear: both;
+	width: 600px;
+	height: 530px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.headerButton{
+	border: 1px solid #ffffff;
+	background-color: RGBA(0,0,0,0.2);
+	color: #ffffff;
+	font-size: 1.1rem;
+	height: 45px;
+	width: 150px;
+	margin: 20px;
+}
+
+.headerButton:hover{
+	background-color: #589ec2;
+	color: #ffffff;
+}
+
+.paragraphContainer{
+	max-height: 260px;
+	width: 100%;
+	overflow: auto;
+}
+
+[class*='col']{
+  float: left;
+}
+
+.col3{
+	position: relative;
+	width: 33.3%;
+	height: 100%;
+	background-color: RGBA(0,0,0,0.05);
+	color: #73AD21;
+	font-size: 1.75rem;
+}
+
+.col3 p {
+	position: absolute;
+	margin: 0 auto;
+	top: 10%;
+	left: 20%;
+	right: 20%;
+	height: 80%;
+	color: white;
+	text-align: left;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxx MAIN xxxxxxxxxxxxxxxxxxxxxxxxxx  */
+
+.prodHead{
+	height: 75px;
+	margin-top: 150px;
+	font-size: 1.25rem;
+}
+
+.productContainer{
+	overflow: auto;
+	width: 100%;
+}
+
+.col4{
+	width: 25%;
+	margin:0px;
+}
+
+.productImage{
+	width: 270px;
+	height: 335px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #ffffff;	
+}
+
+
+.jacket{
+	background: url("Product_men_flight_jacket.png");
+}
+
+.aviators{
+	background: url("Product_pilot_eyewear_.png");
+}
+
+.avionics{
+	background: url("Product_aspen_avionics.png");
+}
+
+.firstAid{
+	background: url("Product_first_aid_kit.png");
+}
+
+.sunglasses{
+	background: url("Product_polarized_sunglasses.png");	
+}
+
+.headset{
+	background: url("Product_headset.png");
+}
+
+.monitor{
+	background: url("Product_multifunction_display.png");
+}
+
+.terrain{
+	background: url("Product_terrain_awareness.png");
+}
+
+.productDesc p{
+	width: 270px;
+	height: 50px;
+	margin: 10px auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxx FOOTER xxxxxxxxxxxxxxxxxxxxxxxxx  */
+
+footer {
+	height: 150px;
+	background-color: #3b3442;
+}
+
+.contactUsTab {
+	position: fixed;
+	bottom: 0px;
+	right: 50px;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+	height: 20px;
+	width: 150px;
+	z-index: 5;
+	background-color: #88a4dd;
+	color: white;
+	padding: 10px 18px 30px 18px;
+}
+
+.contactUsTab:hover {
+	cursor: pointer;
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxx MEDIA QUERIES (MEDIUM) xxxxxxxxxxxxxxxxxxxxxxx  */
+
+@media screen and (max-width: 1300px) {
+
+	.col3Medium{
+		width: 33.3%;
+		height: 188px;
+	}
+
+	.paragraphContainer img {
+		width: 285px;
+		height: 180px;
+	}
+		
+	.paragraphContainer p {
+		font-size: 1.25rem;
+	}
+	
+	.col4Medium {
+		width: 33.3%;
+	}
+
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx MEDIA QUERIES (SMALL) xxxxxxxxxxxxxxxxxxxxxx  */
+
+@media screen and (max-width: 1100px) {
+
+	.col3Small{
+		width: 50%;
+	}
+	.col3Small:last-child{
+		display: none;
+	}
+	
+	.col4Small{
+		width: 50%;
+	}
+	
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx MEDIA QUERIES (XSMALL) xxxxxxxxxxxxxxxxxxxx  */
+
+@media screen and (max-width: 685px) {
+	
+	.col3xSmall{
+		width:100%;
+	}
+	
+	.col3xSmall:nth-last-child(2){
+		display: none;
+	}
+
+	.col4xSmall{
+		width: 100%;
+	}
+	
+}
