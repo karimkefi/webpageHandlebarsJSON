@@ -106,7 +106,7 @@ header{
 
 .headerImage{
 	position: relative;
-	background: url("SlidePilo.jpg");
+	background: url("assets/SlidePilot.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #ffffff;	
@@ -195,36 +195,36 @@ header{
 }
 
 
-.jacket{
-	background: url("Product_men_flight_jacket.png");
-}
+/*.jacket{*/
+	/*background: url("assets/Product_men_flight_jacket.png");*/
+/*}*/
 
 .aviators{
-	background: url("Product_pilot_eyewear_.png");
+	background: url("assets/Product_pilot_eyewear_.png");
 }
 
 .avionics{
-	background: url("Product_aspen_avionics.png");
+	background: url("assets/Product_aspen_avionics.png");
 }
 
 .firstAid{
-	background: url("Product_first_aid_kit.png");
+	background: url("assets/Product_first_aid_kit.png");
 }
 
 .sunglasses{
-	background: url("Product_polarized_sunglasses.png");	
+	background: url("assets/Product_polarized_sunglasses.png");
 }
 
 .headset{
-	background: url("Product_headset.png");
+	background: url("assets/Product_headset.png");
 }
 
 .monitor{
-	background: url("Product_multifunction_display.png");
+	background: url("assets/Product_multifunction_display.png");
 }
 
 .terrain{
-	background: url("Product_terrain_awareness.png");
+	background: url("assets/Product_terrain_awareness.png");
 }
 
 .productDesc p{

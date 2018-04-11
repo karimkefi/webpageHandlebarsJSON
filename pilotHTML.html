@@ -5,6 +5,11 @@
 	<link href="pilotStyle.css" rel="stylesheet" type="text/css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	<title>Pilot Home Page</title>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="handlebars-v4.0.11.js"></script>
+	<script src="pilotTemplate.js" defer></script>
+
 </head>
 
 <body>
@@ -34,7 +39,7 @@
 		<section class="container">
 			
 			<div class="productNavLogo">
-				<img src="LogoPilotShop.png" alt="Pilot Logo" class="productNavLogo">
+				<img src="assets/LogoPilotShop.png" alt="Pilot Logo" class="productNavLogo">
 			</div>
 			
 			<div class="productNavItems">
@@ -48,7 +53,7 @@
 				</ul>
 			</div>
 			
-			<img src="mechanical-gears-img.jpg" alt="setting img" class="settingsTab">
+			<img src="assets/mechanical-gears-img.jpg" alt="setting img" class="settingsTab">
 			
 		</section>
 	</nav>
@@ -88,38 +93,42 @@
 			<h1 class="prodHead">FEATURED PRODUCTS</h1>
 			
 			<div class="productContainer">
-				<article class="col4 col4Medium col4Small col4xSmall">
-					<div class="productImage jacket"></div>
-					<div class="productDesc"><p>jacket jacket jacket</p></div>
-				</article>		
-				<article class="col4 col4Medium col4Small col4xSmall">
-					<div class="productImage aviators"></div>
-					<div class="productDesc"><p>Aviators aviators</p></div>
-				</article>	
-				<article class="col4 col4Medium col4Small col4xSmall">
-					<div class="productImage avionics"></div>
-					<div class="productDesc"><p>avionics avionics</p></div>
-				</article>
-				<article class="col4 col4Medium col4Small col4xSmall">
-					<div class="productImage firstAid"></div>
-					<div class="productDesc"><p>Firstaid Firstaid</p></div>
-				</article>
-				<article class="col4 col4Medium col4Small col4xSmall">
-					<div class="productImage sunglasses"></div>
-					<div class="productDesc"><p>sunglasses sunglasses sunglassesssssssssss</p></div>
-				</article>
-				<article class="col4 col4Medium col4Small col4xSmall">
-					<div class="productImage headset"></div>
-					<div class="productDesc"><p>Headset headset headset headset</p></div>
-				</article>
-				<article class="col4 col4Medium col4Small col4xSmall">
-					<div class="productImage monitor"></div>
-					<div class="productDesc"><p>Monitor monitor monitor monitor</p></div>
-				</article>
-				<article class="col4 col4Medium col4Small col4xSmall">
-					<div class="productImage terrain"></div>
-					<div class="productDesc"><p>terrain terrain terrain terrain</p></div>
-				</article>
+				<!--<article class="col4 col4Medium col4Small col4xSmall">-->
+					<!--<div class="productImage">-->
+						<!--<img src="assets/Product_men_flight_jacket.png" alt="a awesome coat"/>-->
+					<!--</div>-->
+					<!--<div class="productDesc"><p>jacket jacket jacket</p></div>-->
+				<!--</article>		-->
+
+				<!--<article class="col4 col4Medium col4Small col4xSmall">-->
+					<!--<div class="productImage aviators"></div>-->
+					<!--<div class="productDesc"><p>Aviators aviators</p></div>-->
+				<!--</article>	-->
+
+				<!--<article class="col4 col4Medium col4Small col4xSmall">-->
+					<!--<div class="productImage avionics"></div>-->
+					<!--<div class="productDesc"><p>avionics avionics</p></div>-->
+				<!--</article>-->
+				<!--<article class="col4 col4Medium col4Small col4xSmall">-->
+					<!--<div class="productImage firstAid"></div>-->
+					<!--<div class="productDesc"><p>Firstaid Firstaid</p></div>-->
+				<!--</article>-->
+				<!--<article class="col4 col4Medium col4Small col4xSmall">-->
+					<!--<div class="productImage sunglasses"></div>-->
+					<!--<div class="productDesc"><p>sunglasses sunglasses sunglassesssssssssss</p></div>-->
+				<!--</article>-->
+				<!--<article class="col4 col4Medium col4Small col4xSmall">-->
+					<!--<div class="productImage headset"></div>-->
+					<!--<div class="productDesc"><p>Headset headset headset headset</p></div>-->
+				<!--</article>-->
+				<!--<article class="col4 col4Medium col4Small col4xSmall">-->
+					<!--<div class="productImage monitor"></div>-->
+					<!--<div class="productDesc"><p>Monitor monitor monitor monitor</p></div>-->
+				<!--</article>-->
+				<!--<article class="col4 col4Medium col4Small col4xSmall">-->
+					<!--<div class="productImage terrain"></div>-->
+					<!--<div class="productDesc"><p>terrain terrain terrain terrain</p></div>-->
+				<!--</article>-->
 			</div>
 			
 		</section>
